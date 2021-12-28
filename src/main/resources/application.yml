@@ -1,0 +1,6 @@
+server:
+  port: 8682
+
+spring:
+  application:
+    name: arrow-wx-mp
