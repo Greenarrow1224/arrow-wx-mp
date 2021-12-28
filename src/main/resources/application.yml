@@ -4,3 +4,16 @@ server:
 spring:
   application:
     name: arrow-wx-mp
+
+wx:
+  mp:
+    configs:
+      - appId: xxx # 第一个公众号的 加密 appid
+      secret: xxx # 公众号的加密 appsecret
+      token: xxx # 接口配置里的加密 Token 值
+      aesKey: xxx # 接口配置里的加密 EncodingAESKey 值
+      - appId: xxx # 同上
+        secret: xxx
+        token: xxx
+        aesKey: xxx
+
